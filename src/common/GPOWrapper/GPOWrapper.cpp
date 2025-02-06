@@ -128,6 +128,10 @@ namespace winrt::PowerToys::GPOWrapper::implementation
     {
         return static_cast<GpoRuleConfigured>(powertoys_gpo::getConfiguredAdvancedPasteEnabledValue());
     }
+    GpoRuleConfigured GPOWrapper::GetConfiguredVideoConferenceMuteEnabledValue()
+    {
+        return static_cast<GpoRuleConfigured>(powertoys_gpo::getConfiguredVideoConferenceMuteEnabledValue());
+    }
     GpoRuleConfigured GPOWrapper::GetConfiguredZoomItEnabledValue()
     {
         return static_cast<GpoRuleConfigured>(powertoys_gpo::getConfiguredZoomItEnabledValue());

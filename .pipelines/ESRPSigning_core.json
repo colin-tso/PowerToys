@@ -17,6 +17,7 @@
                 "PowerToys.FilePreviewCommon.dll",
                 "PowerToys.Interop.dll",
                 "Tools\\PowerToys.BugReportTool.exe",
+                "WebcamReportTool\\PowerToys.WebcamReportTool.exe",
                 "StylesReportTool\\PowerToys.StylesReportTool.exe",
                 "Telemetry.dll",
                 "PowerToys.ManagedTelemetry.dll",
@@ -211,6 +212,11 @@
 
                 "PowerToys.ShortcutGuide.exe",
                 "PowerToys.ShortcutGuideModuleInterface.dll",
+
+                "PowerToys.VideoConferenceModule.dll",
+                "PowerToys.VideoConferenceProxyFilter_x86.dll",
+                "PowerToys.VideoConferenceProxyFilter_x64.dll",
+                "PowerToys.VideoConferenceProxyFilter_arm64.dll",
 
                 "PowerToys.ZoomIt.exe",
                 "PowerToys.ZoomItModuleInterface.dll",
