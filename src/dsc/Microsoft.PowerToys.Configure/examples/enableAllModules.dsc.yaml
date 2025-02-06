@@ -63,6 +63,8 @@ properties:
           Enabled: true
         ShortcutGuide:
           Enabled: true
+        VideoConference:
+          Enabled: true
         MeasureTool:
           Enabled: true
         Hosts:
