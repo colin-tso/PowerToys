@@ -23,6 +23,7 @@ EXPORTS
 	UnApplyModulesRegistryChangeSetsCA
 	UninstallVirtualCameraDriverCA
 	UnRegisterCmdPalPackageCA
+	UninstallVirtualCameraDriverCA
 	UnRegisterContextMenuPackagesCA
 	UninstallEmbeddedMSIXCA
 	UninstallDSCModuleCA

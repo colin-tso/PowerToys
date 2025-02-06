@@ -57,6 +57,7 @@ namespace powertoys_gpo
     const std::wstring POLICY_CONFIGURE_ENABLED_ADVANCED_PASTE = L"ConfigureEnabledUtilityAdvancedPaste";
     const std::wstring POLICY_CONFIGURE_ENABLED_VIDEO_CONFERENCE_MUTE = L"ConfigureEnabledUtilityVideoConferenceMute";
     const std::wstring POLICY_CONFIGURE_ENABLED_CMD_PAL = L"ConfigureEnabledUtilityCmdPal";
+    const std::wstring POLICY_CONFIGURE_ENABLED_VIDEO_CONFERENCE_MUTE = L"ConfigureEnabledUtilityVideoConferenceMute";
     const std::wstring POLICY_CONFIGURE_ENABLED_ZOOM_IT = L"ConfigureEnabledUtilityZoomIt";
     const std::wstring POLICY_CONFIGURE_ENABLED_REGISTRY_PREVIEW = L"ConfigureEnabledUtilityRegistryPreview";
     const std::wstring POLICY_CONFIGURE_ENABLED_MOUSE_WITHOUT_BORDERS = L"ConfigureEnabledUtilityMouseWithoutBorders";
