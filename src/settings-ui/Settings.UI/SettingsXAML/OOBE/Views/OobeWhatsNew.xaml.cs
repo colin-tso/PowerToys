@@ -95,7 +95,7 @@ namespace Microsoft.PowerToys.Settings.UI.OOBE.Views
             // GitHub APIs require sending an user agent
             // https://docs.github.com/rest/overview/resources-in-the-rest-api#user-agent-required
             getReleaseInfoClient.DefaultRequestHeaders.TryAddWithoutValidation("User-Agent", "PowerToys");
-            releaseNotesJSON = await getReleaseInfoClient.GetStringAsync("https://api.github.com/repos/microsoft/PowerToys/releases");
+            releaseNotesJSON = await getReleaseInfoClient.GetStringAsync("https://api.github.com/repos/alaychak-hc/PowerToys/releases");
             IList<PowerToysReleaseInfo> releases = JsonSerializer.Deserialize<IList<PowerToysReleaseInfo>>(releaseNotesJSON, SourceGenerationContextContext.Default.IListPowerToysReleaseInfo);
 
             // Get the latest releases
