@@ -32,6 +32,7 @@ namespace Common.UI
             Dashboard,
             AdvancedPaste,
             Workspaces,
+            CmdPal,
             ZoomIt,
         }
 
@@ -81,6 +82,8 @@ namespace Common.UI
                     return "AdvancedPaste";
                 case SettingsWindow.Workspaces:
                     return "Workspaces";
+                case SettingsWindow.CmdPal:
+                    return "CmdPal";
                 case SettingsWindow.ZoomIt:
                     return "ZoomIt";
                 default:

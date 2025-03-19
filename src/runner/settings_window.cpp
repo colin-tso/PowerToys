@@ -696,6 +696,8 @@ std::string ESettingsWindowNames_to_string(ESettingsWindowNames value)
         return "AdvancedPaste";
     case ESettingsWindowNames::NewPlus:
         return "NewPlus";
+    case ESettingsWindowNames::CmdPal:
+        return "CmdPal";
     case ESettingsWindowNames::ZoomIt:
         return "ZoomIt";
     default:
@@ -796,6 +798,10 @@ ESettingsWindowNames ESettingsWindowNames_from_string(std::string value)
     else if (value == "NewPlus")
     {
         return ESettingsWindowNames::NewPlus;
+    }
+    else if (value == "CmdPal")
+    {
+        return ESettingsWindowNames::CmdPal;
     }
     else if (value == "ZoomIt")
     {
