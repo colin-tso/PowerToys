@@ -22,6 +22,7 @@ namespace Common.UI
             PowerRename,
             FileExplorer,
             ShortcutGuide,
+            VideoConference,
             Hosts,
             MeasureTool,
             PowerOCR,
@@ -61,6 +62,8 @@ namespace Common.UI
                     return "FileExplorer";
                 case SettingsWindow.ShortcutGuide:
                     return "ShortcutGuide";
+                case SettingsWindow.VideoConference:
+                    return "VideoConference";
                 case SettingsWindow.Hosts:
                     return "Hosts";
                 case SettingsWindow.MeasureTool:
